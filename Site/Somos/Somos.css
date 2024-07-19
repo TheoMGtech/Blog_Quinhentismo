@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 230px;
+    background-image: radial-gradient(circle, #f6e7be,  #f1d3c1,  #ecb8b2);
+    img{
+        height: 90px;
+    }
+    font-family: sans-serif;
+    color:  white;
+}
+
+    h2{
+    font-family: sans-serif;
+    color: #474843;
+    border-bottom: solid 2px;
+    display: inline-block;
+    }
+    p{
+    color: #48586F;
+    font-size: 22px;
+    }
+
+#proposta{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 6% 20%;
+    }
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 150px;
+    background-color: #FEF5DD ;
+    border-radius: 15px;
+    img{
+        border-radius: 50%;
+        height: 340px;
+        width: 340px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        margin: 70px;
+    }
+}
+
+#pesquisa{
+    background-color: white;
+}
