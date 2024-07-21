@@ -15,16 +15,17 @@ body{
     color:  white;
 }
 
-    h2{
-    font-family: sans-serif;
+h2{
+    font-family: "Cinzel", serif;
     color: #474843;
     border-bottom: solid 2px;
     display: inline-block;
-    }
-    p{
+}
+p{
     color: #48586F;
     font-size: 22px;
-    }
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
 
 #proposta{
     display: flex;
@@ -57,4 +58,21 @@ body{
 
 #pesquisa{
     background-color: white;
+}
+
+.contatos{
+    padding:  100px 150px 00px 100px;
+    img{
+        width: 100px;
+        margin: 0px 50px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        margin: 65px 0px ;
+    }
+}
+
+#youtube{
+    width: 200px;
 }
