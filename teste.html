@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Scrollbar</title>
+    <style>
+        /* Barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 12px; /* Largura da barra de rolagem */
+        }
+
+        /* Track da barra de rolagem */
+        ::-webkit-scrollbar-track {
+            background: #941717; /* Cor do fundo da barra */
+        }
+
+        /* Thumb da barra de rolagem */
+        ::-webkit-scrollbar-thumb {
+            background: #eb2e2e; /* Cor do thumb */
+            border-radius: 6px; /* Bordas arredondadas */
+        }
+
+        /* Thumb da barra de rolagem ao passar o mouse */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d41a1a; /* Cor do thumb ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 2000px;">
+        <!-- Conteúdo para criar a rolagem -->
+        <p>Deslize para baixo para ver a barra de rolagem personalizada.</p>
+    </div>
+</body>
+</html>

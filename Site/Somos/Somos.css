@@ -18,61 +18,115 @@ body{
 h2{
     font-family: "Cinzel", serif;
     color: #474843;
-    border-bottom: solid 2px;
     display: inline-block;
 }
 p{
     color: #48586F;
-    font-size: 22px;
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 18px;
+    font-family:sans-serif
 }
 
 #proposta{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    padding: 6% 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 18%  6%;
+    h2{
+        text-align: center;
+        display: block;
+    }
+    p{
+        text-align: center;
+    }
+    img{
+        width: 110%;
+    }
     }
 
 .time{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 45px 150px;
-    background-color: #FEF5DD ;
-    border-radius: 15px;
+    background-image: radial-gradient(circle, #FEF5DD, #fbe8cd, #fee2bb);
+    border-radius: 20px;
+    padding:  1.5% 15% 1.5% 10%;
     img{
-        border-radius: 50%;
-        height: 340px;
-        width: 340px;
+        width: 45%;
+        margin-right: 5%;
     }
     div{
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-around;
-        margin: 70px;
     }
 }
 
 #pesquisa{
-    background-color: white;
+    margin-top: 2%;
+    padding-left: 15%;
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff);
+    img{
+        width: 43%;
+    }
 }
 
 .contatos{
-    padding:  100px 150px 00px 100px;
+    p{
+        text-align: center;
+        font-size: 16px;
+    }
+    h2{
+        text-align: center;
+        display: block;
+    }
+    padding-bottom: 5%;
     img{
-        width: 100px;
+        width: 120px;
         margin: 0px 50px;
     }
     div{
         display: flex;
         justify-content: center;
-        margin: 65px 0px ;
+        margin: 45px 0px ;
     }
 }
 
-#youtube{
-    width: 200px;
+#headersomos{
+    width: 100%;
+}
+
+#bemvindo{
+    display: flex;
+    padding: 0px 16%;
+    justify-content: center;
+    flex-wrap: wrap;
+    #conteudo{
+        width: 50%;
+        padding: 7%;
+    }
+    p{
+        font-size: 20px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        font-family: sans-serif;
+        color: #50698d;
+        list-style: none;
+        padding-bottom: 6px;
+        img{
+            width: 30px;
+            padding-right: 10px; 
+        }
+    }
+    h3{
+        font-family: "Cinzel", serif;
+        color: #474843;
+    }
+}
+
+#separacao{
+    padding: 4% 13% 4%;
 }
