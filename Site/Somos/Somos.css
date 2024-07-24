@@ -71,7 +71,15 @@ p{
         width: 43%;
     }
 }
-
+#galeira{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    img{
+        margin: auto;
+        width: 25%;
+    }
+}
 .contatos{
     p{
         text-align: center;
