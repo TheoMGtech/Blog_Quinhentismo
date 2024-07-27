@@ -1,0 +1,48 @@
+.quadradoDeConteudo{
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    border-radius: 13px;
+    margin-top: 20px;
+    display: flex;
+    align-items:end;
+    margin-top: 20px;
+    h2{
+        text-shadow: 
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+    }
+    div{
+        display: flex;
+        align-items:end;
+        margin-top: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    div:hover{
+        background-image: linear-gradient(to bottom, transparent, rgb(54, 54, 54));  
+    }
+}
+
+
+#contexto{
+    background-image: url(/Site/Imagens/barcos\ -\ pintura.jpeg);
+}
+
+#caracteristicas{
+    background-image: url(/Site/Imagens/chegada\ dos\ portugueses.jpeg);
+}
+
+#autores{
+    background-image: url(/Site/Imagens/padres\ e\ indios.jpeg);
+}
+
+#obras{
+    background-image: url(/Site/Imagens/indio\ na\ arvore.jpeg);
+}
+
+footer{
+    margin-top: 150px;
+}

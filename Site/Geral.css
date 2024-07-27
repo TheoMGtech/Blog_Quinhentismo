@@ -3,8 +3,20 @@
     margin: 0px;
 }
 body{
-    background-color: #FEF5DD;
+    background-color: #ffffff;
 }
+
+h2{
+    font-family: "Cinzel", serif;
+    color: #474843;
+    display: inline-block;
+}
+p{
+    color: #48586F;
+    font-size: 18px;
+    font-family:sans-serif
+}
+
 header{
     display: flex;
     flex-direction:column;
@@ -70,6 +82,7 @@ nav{
 
 
 footer{
+    background-color: white;
     margin: auto;
     width: 95%;
     border-top: solid 1px ;
@@ -107,7 +120,6 @@ footer{
         padding-bottom: 4px;
     }
 }
-
 
 
 
