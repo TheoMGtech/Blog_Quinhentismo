@@ -8,6 +8,7 @@
     align-items:end;
     margin-top: 20px;
     h2{
+        margin-left: 8px;
         text-shadow: 
         -1px -1px 0 white,
          1px -1px 0 white,
@@ -17,12 +18,15 @@
     div{
         display: flex;
         align-items:end;
-        margin-top: 20px;
         width: 100%;
         height: 50%;
     }
-    div:hover{
+}
+
+.quadradoDeConteudo:hover{
+    div{
         background-image: linear-gradient(to bottom, transparent, rgb(54, 54, 54));  
+        border-radius: 13px;
     }
 }
 
@@ -41,8 +45,5 @@
 
 #obras{
     background-image: url(/Site/Imagens/indio\ na\ arvore.jpeg);
-}
-
-footer{
-    margin-top: 150px;
+    margin-bottom: 120px;
 }
