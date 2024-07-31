@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FEF5DD;
+}
+
+.mastertitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0;
+    h1{
+        height: 100%;
+        width: 100%;
+        text-align: left;
+    }
+    h4{
+        display: flex;
+    }
+    h4::before, h4::after{
+    content: '';
+    flex: 1;
+    }
+    h1::after, h4::after{
+        flex: 4;
+    }
+}
+
+conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25% 0 16%;
+    h2{
+        font-size: xx-large;
+        font-weight: normal;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+.autor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 3s, opacity 3s;
+}
+.autor.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s, opacity 3s;
+}
+.obras{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 3s, opacity 3s;
+    li{
+        font-size: xx-large;
+        padding: 50px;
+    }
+}
+.obras.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s, opacity 3s;
+}
+
+#pero{
+    margin-bottom: 100px;
+    .autor{
+        flex-direction: row-reverse;
+    }
+    #retratoPero{
+        height: 400px;
+        margin-left: 20px;
+    }
+    p{
+        margin-right: 20px;
+    }
+    h3{
+        font-size: x-large;
+        margin: 15px;
+    }
+    #carta{
+        float: left;
+        margin-right: 50px;
+    }
+}
+
+#anchieta{
+    margin-bottom: 100px;
+    #retratoJose{
+        height: 400px;
+        margin-right: 20px;
+    }
+    p{
+        margin-right: 20px;
+    }
+    h3{
+        font-size: x-large;
+        margin: 15px;
+        text-align: end;
+        margin-right: 300px;
+    }
+    .obras{
+        flex-direction: row-reverse;
+    }
+}
+
+#nobrega{
+    margin-bottom: 100px;
+    .autor{
+        flex-direction: column-reverse;
+    }
+    #retratoPadre{
+        width: 600px;
+    }
+    p{
+        margin: 25px;
+    }
+    h3{
+        font-size: x-large;
+        margin: 15px;
+    }
+    #cartaPadre{
+        height: 500px;
+        margin-right: 50px;
+    }
+    
+}
+
+#hans{
+    margin-bottom: 100px;
+    .autor{
+        flex-direction: row-reverse;
+    }
+    #retratoHans{
+        height: 380px;
+    }
+    p{
+        margin-right: 20px;
+    }
+    h3{
+        font-size: x-large;
+        margin: 15px;
+    }
+    #livro{
+        float: left;
+        margin-right: 50px;
+    }
+}
+
+
+
