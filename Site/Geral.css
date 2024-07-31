@@ -27,6 +27,10 @@ h1::before{
 h1::after{
     margin-left: 10px;
 }
+h2{
+    font-family: "Cinzel", serif;
+    color: #474843;
+}
 
 p{
     color: #48586F;
