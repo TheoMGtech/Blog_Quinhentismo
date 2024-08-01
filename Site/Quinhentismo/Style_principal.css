@@ -119,3 +119,7 @@ nav{
     }
 }
 
+iframe{
+    display: block;
+    margin: auto;
+}
