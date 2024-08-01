@@ -4,24 +4,118 @@
 }
 body{
     background-color: #FEF5DD;
+}
+nav{
     p{
-        font-size: xx-large;  
+        font-size: 18px;
+        font-family: "Cinzel", serif;
     }
+    img{
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        left: 10px;
+        top: 2px;
+    }
+    z-index: 10;
 }
 
 #pg1{
-    h1::after{
+    #title{
+        margin: 40px 0;
+    }
+    p{
+        font-size: 20px;  
+    }
+    h2{
+        display: flex;
+        font-family: "Cinzel", serif;
+        color: #474843;
+        font-size: 18px;
+
+    }
+    h2::before, h2::after{
+    content: '';
+    flex: 1;
+    }
+    h1::after, h2::after{
         flex: 7;
     }
 }
 
 #txt1{
     display: flex;
+    text-align: center;
     margin: 50px;
     align-items: center;
     flex-direction: column;
+    margin-right:  18%;
+    margin-left: 9%;
     img{
         padding-top: 50px;
         width: 1000px;
     }
 }
+
+#title{
+    margin-top: 70px;
+}
+#title::before{
+    flex: 7;
+}
+#pg2{  
+    display: flex;
+    text-align: center;
+    margin: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin-right:  18%;
+    margin-left: 9%;
+    p{
+        font-size: 20px;  
+    }
+    
+
+    #title2{
+        display: flex;
+        font-family: "Cinzel", serif;
+        color: #474843;
+        font-size: x-large;
+        text-decoration: underline;
+        padding: 20px 0;
+        width: 100%;
+    }
+    #title2::before, #title2::after{
+        content: '';
+        flex: 1;
+    }
+    #title2::after{
+        flex: 6;
+    }
+
+    #caracteristicas{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        margin-top: 0;
+        li{
+            font-size: 28px;
+            padding: 10px 50px;
+            margin-top: 20px;
+            text-decoration: dashed;
+            color: #48586F;
+            font-size: 18px;
+            font-family:sans-serif;
+            text-align: justify;
+            
+        }
+        p{
+            font-size: 20px;  
+        }
+        img{
+            padding-top: 20px;
+            width: 400px;
+        }
+    }
+}
+
