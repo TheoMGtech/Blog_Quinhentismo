@@ -1,0 +1,53 @@
+h1, h2{
+    font-family: "Cinzel", serif;
+    color: #474843;
+    text-align: center;
+    margin: 30px 0px 15px;
+}
+h2{
+    font-size: 27px;
+}
+p, li{
+    color: #48586F;
+    font-size: 22px;
+    font-family:sans-serif
+}
+nav{
+    p{
+        font-size: 18px;
+    font-family: "Cinzel", serif;
+    }
+    img{
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        left: 10px;
+        top: 2px;
+    }
+}
+body{
+    background-color: #FEF5DD
+}
+
+conteiner img{
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+p, li {
+    margin: 1.5% 16%;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+#contexto{
+    h2{
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 0px;
+    }
+}

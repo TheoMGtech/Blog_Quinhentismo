@@ -1,0 +1,24 @@
+body{
+    background-color: #FEF5DD;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+}
+
+nav{
+    p{
+        font-size: 18px;
+    font-family: "Cinzel", serif;
+    }
+    img{
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        left: 10px;
+        top: 2px;
+    }
+    z-index: 10;
+}
