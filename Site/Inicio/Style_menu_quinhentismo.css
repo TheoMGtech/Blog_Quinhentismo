@@ -1,3 +1,5 @@
+
+
 .quadradoDeConteudo{
     width: 80%;
     height: 170px;
@@ -8,12 +10,12 @@
     align-items:end;
     margin-top: 20px;
     h2{
-        margin-left: 8px;
-        text-shadow: 
-        -1px -1px 0 white,
-         1px -1px 0 white,
-        -1px  1px 0 white,
-         1px  1px 0 white;
+        padding-left: 8px;
+        padding-right: 5px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 10px;
+        color: white;
+        background-color: rgba(54, 54, 54, 0.4);
     }
     div{
         display: flex;

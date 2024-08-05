@@ -66,6 +66,7 @@ p{
 #pesquisa{
     margin-top: 2%;
     padding-left: 15%;
+    margin-right: 10px;
     background-image: radial-gradient(circle, #ffffff, #ffffff, #ffffff);
     img{
         width: 43%;
