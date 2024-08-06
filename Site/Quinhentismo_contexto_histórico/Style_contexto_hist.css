@@ -7,11 +7,21 @@ h1, h2{
 h2{
     font-size: 27px;
 }
-p, li{
-    color: #48586F;
-    font-size: 22px;
-    font-family:sans-serif
+
+conteiner{
+    p, li{
+        color: #48586F;
+        font-size: 22px;
+        font-family:sans-serif;
+        margin: 1.5% 16%;
+        text-align: center;
+    }
+    li{
+        text-align: left;
+    }
 }
+
+
 nav{
     p{
         font-size: 18px;
@@ -34,14 +44,7 @@ conteiner img{
     margin: auto;
     width: 400px;
 }
-p, li {
-    margin: 1.5% 16%;
-    text-align: center;
-}
 
-li{
-    text-align: left;
-}
 
 #contexto{
     h2{
