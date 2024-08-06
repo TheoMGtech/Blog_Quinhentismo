@@ -4,6 +4,7 @@
 }
 body{
     background-color: #FEF5DD;
+    overflow-x: hidden;
 }
 
 .mastertitle{
@@ -68,7 +69,7 @@ conteiner{
     display: flex;
     align-items: center;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     transition: transform 3s, opacity 3s;
     li{
         font-size: 28px;

@@ -4,7 +4,7 @@ document.addEventListener('scroll', function(){
 
     autor.forEach(autor => {
         const react = autor.getBoundingClientRect();
-        if(react.top < window.innerHeight && react.bottom > 0){
+        if(react.top < window.innerHeight -10 && react.bottom > 0){
             autor.classList.add('visible');
         }
         else{
@@ -14,11 +14,12 @@ document.addEventListener('scroll', function(){
 
     obras.forEach(obras => {
         const react = obras.getBoundingClientRect();
-        if(react.top < window.innerHeight && react.bottom > 0){
+        if(react.top < window.innerHeight -10 && react.bottom > 0){
             obras.classList.add('visible');
         }
         else{
             obras.classList.remove('visible')
         }
     })
+
 })

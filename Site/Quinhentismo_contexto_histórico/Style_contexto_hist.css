@@ -60,3 +60,19 @@ iframe{
     display: block;
     margin: auto;
 }
+
+/* Parte da transição */
+.title, .pgfo{
+    opacity: 0;
+}
+
+
+.title.visible{
+    opacity: 1;
+    transition: opacity 3s, transform 3s;
+}
+
+.pgfo.visible{
+    opacity: 1;
+    transition: opacity 5s, transform 5s;
+}
