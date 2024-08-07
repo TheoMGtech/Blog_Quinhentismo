@@ -1,0 +1,12 @@
+#links{
+    padding: 2% 20% 7%;
+    p{
+        padding-bottom: 12px;
+    }
+    a{
+        color: #496c9d;
+    }
+    a:hover{
+        color: #6397e0;
+    }
+}
