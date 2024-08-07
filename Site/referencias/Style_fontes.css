@@ -1,0 +1,22 @@
+.referencia{
+    display: flex;
+    margin-left: 150px;
+    
+    color: beige;
+    word-wrap: break-word; /* Para quebrar as palavras longas */
+    
+    margin-top: 50px;
+    font-size: 15px;
+}
+a{
+    font-family: "Cinzel", serif; ;
+    color: #474843;
+    
+    
+}
+#refs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
