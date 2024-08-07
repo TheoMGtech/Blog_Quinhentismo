@@ -204,3 +204,13 @@ barfloor{
 ::-webkit-scrollbar-thumb:hover {
     background: #48586F; /* Cor do thumb ao passar o mouse */
 }
+
+/*Karina que colocou isso*/
+
+*{
+    z-index: 1;
+}
+
+nav{
+    z-index: 10;
+}

@@ -1,12 +1,24 @@
 
+
+
+
+
+h1{
+    padding: 4% 0% 0%;
+}
+
 #refs{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-items: center;
     width: 100%;
     text-align: center;
     margin-top: 50px;
+
+
+    padding-bottom: 8%;
 
     
 }
@@ -14,6 +26,7 @@
     margin-bottom: 50px;
     width: 1000px;
 }
+
 
 
 
