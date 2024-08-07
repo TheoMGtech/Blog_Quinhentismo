@@ -1,22 +1,29 @@
-.referencia{
-    display: flex;
-    margin-left: 150px;
-    
-    color: beige;
-    word-wrap: break-word; /* Para quebrar as palavras longas */
-    
-    margin-top: 50px;
-    font-size: 15px;
-}
-a{
-    font-family: "Cinzel", serif; ;
-    color: #474843;
-    
-    
-}
+
 #refs{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+
     
+}
+.referencia{
+    margin-bottom: 50px;
+    width: 1000px;
+}
+
+
+
+a{
+    font-family: "Cinzel", serif; ;
+    color: #474843;  
+}
+
+a:hover{
+    height: 25px;
+    width: 25px;
+    color: rgb(146, 177, 255);
 }
