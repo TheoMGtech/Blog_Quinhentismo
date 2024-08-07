@@ -11,12 +11,18 @@
 a{
     font-family: "Cinzel", serif; ;
     color: #474843;
-    
-    
+}
+a:hover{
+    color: #316ab9;
+}
+
+h1{
+    padding: 4% 0% 0%;
 }
 #refs{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 8%;
     
 }
