@@ -37,7 +37,24 @@ a{
 h1{
     margin-bottom: 15px;
 }
-
+.title-refs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.title-refs::before,
+.title-refs::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.title-refs::before{
+    margin-right: 10px;
+}
+.title-refs::after{
+    margin-left: 10px;
+}
 a:hover{
     height: 25px;
     width: 25px;
@@ -50,4 +67,16 @@ a:hover{
     font-family: "Cinzel", serif;
     font-size: 25px;
     color: #272725;
+}
+h1::before,
+h1::after {
+    content: '';
+    flex: 1;
+    border-bottom:0px;
+}
+h1::before{
+    margin-right: 10px;
+}
+h1::after{
+    margin-left: 10px;
 }
